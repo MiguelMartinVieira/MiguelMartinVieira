@@ -1,111 +1,57 @@
-<div align="center">
-
 # Miguel Martín Vieira
 
-### **Mathematical Engineering & Artificial Intelligence (ICAI)**
-*Mathematical Optimization • AI Systems in Production • Quantitative & Financial Engineering*
+**Mathematical Engineering & AI — Comillas ICAI (Madrid)**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Miguel%20Mart%C3%ADn%20Vieira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/miguel-mart%C3%ADn-vieira-77b35b28b)
-[![Portfolio](https://img.shields.io/badge/Website-itacacademia.com-10B981?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://itacacademia.com)
-[![Email](https://img.shields.io/badge/Email-miguel.martin.vieira%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:miguel.martin.vieira@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Madrid%2C%20Spain-6B7280?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Madrid)
-
-<br/>
-
-> *"Bridging rigorous continuous & discrete mathematics with robust, containerized production systems and real-world operational scale."*
-
-</div>
+[LinkedIn](https://linkedin.com/in/miguel-mart%C3%ADn-vieira-77b35b28b) · [miguel.martin.vieira@gmail.com](mailto:miguel.martin.vieira@gmail.com) · [itacacademia.com](https://itacacademia.com)
 
 ---
 
-## 🧭 Executive Summary
+## About
 
-Undergraduate in **Mathematical Engineering and Artificial Intelligence** at **Comillas-ICAI**, combining high-level analytical modeling (convex/non-convex optimization, dynamic programming, game theory, stochastic processes) with production-grade software architecture.
+I'm finishing my degree in Mathematical Engineering and AI at ICAI. Most of my work sits at the intersection of applied math (optimization, dynamic programming, stochastic models) and building software that actually runs in production — not just notebooks.
 
-- 🚀 **Founder & Systems Engineer at Academia Ítaca**: Scaled an education marketplace approaching **€40k in revenue** with **100% autonomous operations** and zero administrative overhead, powered by model-cascade LLM agents, bitset combinatorial optimization, and automated accounting workflows.
-- 🏭 **Industrial Optimization at El Encinar de Humienta (€300M turnover)**: Promoted by the CEO to lead an industrial IoT & RFID telemetry initiative tracking 500+ cattle heads daily across industrial cooling chambers and rail transport lines.
-- 💰 **Financial Operations Leadership**: Managed **€234k in cash and POS settlements** at FSTA XLIII (18 social initiatives funded), engineering redundant double-entry controls that cut historical accounting discrepancies to exactly **€0.00**.
-- 🏆 **Track Record**: 2nd Place at **Campus 42 Madrid Hackathon** (Fundación Telefónica / Movistar) and **Kumon Mathematics Completer** at age 15 (<1% completion rate: multivariable calculus, differential equations, and linear algebra).
+A few things I've built and shipped:
 
----
+- **[Academia Ítaca](https://itacacademia.com)** — Founded and run a tutoring marketplace (~€40k revenue) with zero admin staff. The whole operation (scheduling, billing, cancellations, teacher payouts) runs on a stack of Python services, LLM agents, and a Node.js messaging bridge. [See the platform repo →](https://github.com/MiguelMartinVieira/itaca-autonomous-platform)
 
-## 🛠️ Technical Stack & Tooling
+- **Industrial IoT at El Encinar de Humienta** (€300M turnover meat processing) — The CEO pulled me in to lead an RFID telemetry project tracking 500+ cattle heads through cooling chambers and rail transport.
 
-```
-┌──────────────────────────────┬──────────────────────────────┬──────────────────────────────┐
-│  APPLIED MATH & AI           │  SYSTEMS & DATA ARCHITECTURE │  SOFTWARE & DEVOPS           │
-├──────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
-│ • Mathematical Optimization  │ • Python (Pandas, NumPy)     │ • Docker & Docker Compose    │
-│   (LP, MILP, NLP, Bitsets)   │ • Apache Parquet Storage     │ • Caddy Reverse Proxy (HTTPS)│
-│ • Machine Learning & PyTorch │ • PostgreSQL / SQLite        │ • CI/CD & GitHub Actions     │
-│ • LLM Multi-Agent Cascades   │ • Streamlit & Plotly Dash    │ • Testing (pytest, coverage) │
-│ • Multimodal Computer Vision │ • Asyncio / Microservices    │ • Ruff, Black, pre-commit    │
-│ • NVIDIA DGX H200 Clusters   │ • Financial Double-Entry     │ • Linux / POSIX Shell        │
-└──────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
-```
+- **Financial ops for FSTA XLIII** — Managed €234k in cash and card settlements for a student festival funding 18 social projects. Built double-entry reconciliation controls that closed the books at exactly €0.00 discrepancy.
+
+- 2nd place at **Campus 42 Madrid Hackathon** (Telefónica/Movistar). Completed Kumon Mathematics at 15 (multivariable calculus, ODEs, linear algebra — <1% completion rate).
 
 ---
 
-## 🌟 Featured Engineering Projects
+## Tech I use regularly
 
-### 1. [Itaca Autonomous Platform — Multi-Agent Operations & Microservices Engine](https://github.com/MiguelMartinVieira/itaca-autonomous-platform)
-> **Stack**: `Python 3.12` • `Node.js microservices` • `Google Gemini 1.5 Flash` • `Asyncio` • `Google Sheets API` • `Circuit Breakers`
+**Math & AI:** optimization (LP, MILP, bitsets), PyTorch, LLM orchestration (Gemini model cascades), multimodal vision pipelines
 
-The complete autonomous backend and agent orchestration engine powering **Academia Ítaca** (€40k revenue, 100% automated operations).
-- **Multi-Agent Orchestration**: NLP agent cascade analyzing unstructured multi-turn student messages to autonomously detect session cancellations, extract ISO timestamps, and execute calendar/database transactions.
-- **Resilient Distributed Architecture**: Node.js WhatsApp session bridge communicating over authenticated HTTP endpoints with Python `asyncio` consumers; includes exponential backoff, circuit breaker policies, and rate-limited Google Cloud Sheets persistence.
-- **Zero-Touch Business**: Automated billing notifications, teacher payout splits, and multi-session scheduling with zero administrative staff.
+**Systems:** Python (pandas, numpy, asyncio), Node.js microservices, PostgreSQL, SQLite, Apache Parquet, Streamlit
+
+**Infra:** Docker Compose, Caddy (reverse proxy + auto-TLS), Linux, pytest, ruff, pre-commit
 
 ---
 
-### 2. [Bokatas — Nationwide Intelligent OCR & Invoice Reconciliation Pipeline](https://github.com/MiguelMartinVieira/bokatas-ocr-accounting-pipeline)
-> **Stack**: `Python 3.12` • `Google Gemini Vision API` • `Pydantic v2` • `Pandas` • `OpenPyXL` • `Google Drive API`
+## Projects
 
-An automated accounting ingestion pipeline built for **Asociación Bokatas (NGO)** across Madrid, Valencia, and Zaragoza.
-- **Multimodal OCR**: Ingests hundreds of heterogeneous, wrinkled receipts, thermal paper prints, and iOS HEIC files via Gemini Vision models.
-- **Automated Bookkeeping**: Classifies itemized lines into the NGO's **9 official budgetary categories** with 0% human transcription error via strict Pydantic schemas.
-- **Operational Impact**: Eliminates **200+ hours of manual administrative labor annually** and outputs audit-proof multi-sheet Excel workbooks and immutable general ledgers.
+### [itaca-autonomous-platform](https://github.com/MiguelMartinVieira/itaca-autonomous-platform)
+The backend that runs Academia Ítaca end-to-end. Python async orchestrator + Node.js WhatsApp daemon + Gemini Flash NLP agent that reads parent messages ("Mateo can't make it today, he has a fever") and auto-cancels sessions. Circuit breakers, rate-limited Sheets client, cron-scheduled jobs on a VPS.
 
----
+### [bokatas-ocr-accounting-pipeline](https://github.com/MiguelMartinVieira/bokatas-ocr-accounting-pipeline)
+OCR pipeline for an NGO (Asociación Bokatas) that feeds the homeless in Madrid, Valencia, and Zaragoza. Takes photos of crumpled supermarket receipts, runs them through Gemini Vision, validates with Pydantic schemas, and classifies every line item into 9 budget categories. Saves volunteers ~200 hours/year of manual data entry.
 
-### 3. [Dynamic Programming Bitset Engine — Combinatorial Subset Sum](https://github.com/MiguelMartinVieira/bitset-subset-sum-balancer)
-> **Stack**: `Python 3.12` • `Bitwise DP Parallelism` • `Discrete Optimization` • `Algorithms` • `pytest`
+### [bitset-subset-sum-balancer](https://github.com/MiguelMartinVieira/bitset-subset-sum-balancer)
+Solver for the Subset Sum problem using bitset-parallel dynamic programming. Built it because I needed to split Bizum transactions across multiple bank accounts without exceeding monthly caps. Runs in $O(n \cdot W / 64)$ — sub-millisecond for real workloads. Full test suite with pytest.
 
-A high-performance algorithmic solver for the **NP-complete Subset Sum problem** accelerated via **bitwise 64-bit parallel shifts**.
-- **The Problem**: Dynamically partition daily client transactions across multiple bank accounts to satisfy strict statutory monthly transaction limits (Bizum banking caps).
-- **The Solution**: Implemented a bitset-accelerated dynamic programming approach reducing state-space search latency by orders of magnitude ($\mathcal{O}(n \cdot W / 64)$), executing in sub-milliseconds.
+### [oki-nami](https://github.com/MiguelMartinVieira/oki-nami)
+Personal finance dashboard and double-entry accounting engine. Tracks real vs. nominal returns adjusted by Spanish CPI inflation data. Parquet for fast aggregations, Streamlit frontend, Docker Compose + Caddy for deployment.
 
----
-
-### 4. [Oki-Nami — Quantitative Wealth Analytics & Double-Entry Accounting](https://github.com/MiguelMartinVieira/oki-nami)
-> **Stack**: `Python 3.12` • `Streamlit` • `Plotly` • `Docker Compose` • `Caddy (Auto TLS)` • `Apache Parquet` • `Gemini Vision` • `pytest`
-
-An end-to-end containerized personal finance and quantitative asset allocation engine.
-- **Mathematical Modeling**: Real-time portfolio valuation indexing against Spanish **INE CPI inflation** data to calculate real vs. nominal purchasing power and drawdown trajectories.
-- **Double-Entry Engine**: Strict accounting invariants ($\Delta\text{Assets} = \Delta\text{Liabilities} + \Delta\text{Equity}$) generating real-time balance sheets, income statements, and cash flow forecasts.
-- **High-Performance Persistence**: Columnar storage in **Apache Parquet** for sub-millisecond analytical aggregations paired with Google Sheets cloud synchronization.
-- **Containerized Stack**: Packaged via Docker Compose and fronted by Caddy for automated TLS certificates.
-
----
-
-### 5. [Universal Exercise Generator — Autonomous AI Curriculum Engine](https://github.com/MiguelMartinVieira/universal-exercise-generator)
-> **Stack**: `Python` • `LLM Orchestration` • `YAML Config Engines` • `Automated LaTeX / PDF Rendering`
-
-An autonomous batch-generation factory producing publication-grade academic STEM problem sets.
-- Driven by declarative YAML curriculum profiles spanning secondary to elite university entrance exams (ICADE, CEU).
-- Includes structural validation, LaTeX syntax sanitization, and automated PDF compilation workflows.
-
----
-
-## 📈 Engineering Activity & Highlights
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MiguelMartinVieira&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MiguelMartinVieira&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8" height="150" alt="Top Languages" />
-</div>
+### [universal-exercise-generator](https://github.com/MiguelMartinVieira/universal-exercise-generator)
+Batch generator for STEM problem sets. Define a curriculum profile in YAML, point it at an LLM, and it produces validated LaTeX exercises with step-by-step solutions. Used at Ítaca to generate hundreds of worksheets from secondary school to university entrance level.
 
 ---
 
 <div align="center">
-  <sub>Designed & engineered with precision by Miguel Martín Vieira • Madrid, Spain</sub>
+  <img src="https://github-readme-stats.vercel.app/api?username=MiguelMartinVieira&show_icons=true&theme=default&hide_border=true" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MiguelMartinVieira&layout=compact&theme=default&hide_border=true" height="150" alt="Top Languages" />
 </div>
