@@ -49,9 +49,4 @@ Personal finance dashboard and double-entry accounting engine. Tracks real vs. n
 ### [universal-exercise-generator](https://github.com/MiguelMartinVieira/universal-exercise-generator)
 Batch generator for STEM problem sets. Define a curriculum profile in YAML, point it at an LLM, and it produces validated LaTeX exercises with step-by-step solutions. Used at Ítaca to generate hundreds of worksheets from secondary school to university entrance level.
 
----
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MiguelMartinVieira&show_icons=true&theme=default&hide_border=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MiguelMartinVieira&layout=compact&theme=default&hide_border=true" height="150" alt="Top Languages" />
-</div>
