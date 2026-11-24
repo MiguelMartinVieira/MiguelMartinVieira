@@ -12,7 +12,7 @@ I'm finishing my degree in Mathematical Engineering and AI at ICAI. Most of my w
 
 A few things I've built and shipped:
 
-- **[Academia Ítaca](https://itacacademia.com)** — Founded and run a tutoring marketplace (~€40k revenue) with zero admin staff. The whole operation (scheduling, billing, cancellations, teacher payouts) runs on a stack of Python services, LLM agents, and a Node.js messaging bridge. [See the platform repo →](https://github.com/MiguelMartinVieira/itaca-autonomous-platform)
+- **[Academia Ítaca](https://itacacademia.com)** — Founded and run a tutoring marketplace (€50k/yr revenue and growing) with zero admin staff. The whole operation (scheduling, billing, cancellations, teacher payouts) runs on a stack of Python services, LLM agents, and a Node.js messaging bridge. [See the platform repo →](https://github.com/MiguelMartinVieira/itaca-autonomous-platform)
 
 - **Industrial IoT at El Encinar de Humienta** (€300M turnover meat processing) — The CEO pulled me in to lead an RFID telemetry project tracking 500+ cattle heads through cooling chambers and rail transport.
 
