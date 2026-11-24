@@ -2,7 +2,7 @@
 
 **Mathematical Engineering & AI — Comillas ICAI (Madrid)**
 
-[LinkedIn](https://linkedin.com/in/miguel-mart%C3%ADn-vieira-77b35b28b) · [miguel.martin.vieira@gmail.com](mailto:miguel.martin.vieira@gmail.com) · [itacacademia.com](https://itacacademia.com)
+🎓 [Academia Ítaca](https://itacacademia.com) · 💼 [LinkedIn](https://www.linkedin.com/in/miguel-martin-vieira) · 𝕏 [@LabrosaV](https://x.com/LabrosaV) · ✉️ [miguel.martin.vieira@gmail.com](mailto:miguel.martin.vieira@gmail.com)
 
 ---
 
